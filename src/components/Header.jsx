@@ -3,7 +3,7 @@ import contactArrow from "../assets/images/headerImages/headerContactArrow.png";
 
 const Header = () => {
   return (
-    <header className="headerContent flex justify-between items-center max-w-[1200px] mx-auto py-5">
+    <header className="headerContent flex justify-between items-center max-w-[1200px] mx-auto py-5 px-3 mb-5">
       <div className="headerLogoContent">
         <img src={logo} alt="57Dentcare" className="headerLogoImg" />
       </div>
