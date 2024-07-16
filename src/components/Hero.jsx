@@ -1,4 +1,4 @@
-import heroImg from "../assets/images/heroImages/smilingWoman.png";
+import heroImg from "../assets/images/heroImages/smilingWoman-transformed.png";
 import heroButtonEffect from "../assets/images/heroImages/heroButtonEffect.png";
 import contactArrow from "../assets/images/headerImages/headerContactArrow.png";
 
@@ -14,26 +14,26 @@ const Hero = () => {
     <>
       <section className="heroContent max-w-[1200px] mx-auto px-3 flex justify-between items-start relative min-h-[55vh]">
         <div className="heroInfoContent w-full max-w-[669px] z-10">
-          <h1 className="heroTitle text-[50px] font-bold pt-5">
+          <h1 className="heroTitle text-[50px] font-bold pt-10">
             Dental Excellence Starts Here: Your Guide to a Brighter, Healthier <br /> Smile
           </h1>
-          <div className="heroButtonContent">
-            <button className="heroButton bg-secondary flex items-center gap-2 px-5 py-2 rounded-[30px] font-semibold h-[50px] mt-5 relative">
+          <div className="bookingButtonContent">
+            <button className="bookingButton bg-secondary flex items-center gap-2 px-5 py-2 rounded-[30px] font-semibold h-[50px] mt-5 relative">
               Booking Now
-              <div className="heroButtonImgContent max-w-[13px] flex items-center justify-center">
-                <img src={contactArrow} alt="Arrow" className="heroButtonImg w-full" />
+              <div className="bookingButtonImgContent max-w-[13px] flex items-center justify-center">
+                <img src={contactArrow} alt="Arrow" className="bookingButtonImg w-full" />
               </div>
-              <div className="heroButtonEffectImgContent  absolute max-w-[80px] right-[-15px] z-[-1]">
-                <img src={heroButtonEffect} alt="Arrow" className="heroButtonEffectImg w-full" />
+              <div className="bookingButtonEffectImgContent  absolute max-w-[80px] right-[-15px] z-[-1]">
+                <img src={heroButtonEffect} alt="Arrow" className="bookingButtonEffectImg w-full" />
               </div>
             </button>
           </div>
         </div>
-        <div className="heroImgContent w-full max-w-[650px] absolute bottom-30 right-0">
+        <div className="heroImgContent w-full max-w-[630px] absolute bottom-30 right-0">
           <img src={heroImg} alt="Smiling Woman" className="heroImg w-full" />
         </div>
       </section>
-      <section className="qualityContent max-w-[1200px] mx-auto">
+      <section className="qualityContent max-w-[1200px] mx-auto px-3">
         <div className="qualityBoxes z-10 relative flex items-start justify-between gap-5">
           {/* Free Consultation */}
           <div className="qualityBox">

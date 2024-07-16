@@ -6,8 +6,10 @@ function App() {
       <Header />
       <Hero />
       <Services />
-      <AboutUs />
-      <WhyChooseUs />
+      <div className="aboutUs">
+        <AboutUs />
+        <WhyChooseUs />
+      </div>
       <Testimonials />
       <Consultation />
       <Footer />
