@@ -4,7 +4,8 @@
 
 .serviceContent,
 .aboutUsContent,
-.whyChooseUsContent {
+.whyChooseUsContent,
+.consultationContent {
   font-family: "Poppins";
 }
 .aboutUs {
