@@ -37,10 +37,14 @@ const Header = () => {
         </ul>
       </div>
       <div className="headerContactContent">
-        <button className="headerContactButton w-[200px] h-[60px] text-[20px] font-medium text-center flex justify-center items-center gap-2 border-solid border-[#89DB7B] border-[1px] rounded-[50px]">
+        <button className="headerContactButton w-[180px] h-[50px] text-[18px] font-medium text-center flex justify-center items-center gap-2 border-solid border-[#89DB7B] border-[1px] rounded-[50px]">
           Contact Us
           <div className="headerContactButtonImgContent flex justify-between items-center max-w-[15px]">
-            <img src={contactArrow} alt="Contact Us" className="headerContactButtonImg w-full" />
+            <img
+              src={contactArrow}
+              alt="Contact Us"
+              className="headerContactButtonImg w-full"
+            />
           </div>
         </button>
       </div>

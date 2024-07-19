@@ -12,13 +12,18 @@ import "../assets/styles/hero.css";
 const Hero = () => {
   return (
     <>
-      <section className="heroContent max-w-[1200px] mx-auto px-3 flex justify-between items-start relative min-h-[70vh]">
+      <section className="heroContent max-w-[1200px] mx-auto px-3 flex justify-between items-start relative min-h-[70vh] max-[850px]:flex-col max-[850px]:justify-center max-[850px]:items-center">
         <div className="heroInfoContent w-full max-w-[669px] z-10">
-          <h1 className="heroTitle text-[50px] font-bold pt-10">
-            Dental Excellence Starts Here: Your Guide to a Brighter, Healthier{" "}
+          <h1
+            className="heroTitle text-[50px] font-bold pt-10 
+          max-[1050px]:text-[40px] max-[1050px]:max-w-[500px] max-[850px]:text-center 
+          max-[850px]:max-w-full
+          max-[850px]:text-[30px]"
+          >
+            Dental Excellence Starts Here: Your Guide to a Brighter, Healthier
             <br /> Smile
           </h1>
-          <div className="bookingButtonContent">
+          <div className="bookingButtonContent max-[850px]:flex max-[850px]:justify-center max-[850px]:items-center">
             <button className="bookingButton bg-secondary flex items-center gap-2 px-5 py-2 rounded-[30px] font-semibold h-[50px] mt-5 relative">
               Booking Now
               <div className="bookingButtonImgContent max-w-[13px] flex items-center justify-center">
@@ -38,12 +43,12 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div className="heroImgContent w-full max-w-[630px] absolute bottom-30 right-0">
+        <div className="heroImgContent w-full max-w-[630px] absolute bottom-30 right-0 max-[1050px]:max-w-[500px] max-[850px]:relative">
           <img src={heroImg} alt="Smiling Woman" className="heroImg w-full" />
         </div>
       </section>
       <section className="qualityContent max-w-[1200px] mx-auto px-3">
-        <div className="qualityBoxes z-10 relative flex items-start justify-between gap-5">
+        <div className="qualityBoxes z-10 relative flex flex-wrap items-start justify-center gap-5">
           {/* Free Consultation */}
           <div className="qualityBox">
             <div className="qualityBoxImgContent">
