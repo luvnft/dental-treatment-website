@@ -5,7 +5,8 @@
 .serviceContent,
 .aboutUsContent,
 .whyChooseUsContent,
-.consultationContent {
+.consultationContent,
+.footerContent {
   font-family: "Poppins";
 }
 .aboutUs {
