@@ -11,10 +11,12 @@ import "../assets/styles/footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footerContent max-w-[1200px] mx-auto pt-5 pb-10">
-      <div className="footerLogoContent max-w-[120px]">
-        <img src={footerLogo} alt="57Dentcare" className="footerLogo w-full" />
+    <footer className="footerContent max-w-[1200px] mx-auto pt-2 pb-10 max-md:px-2">
+      {/*
+      <div className="footerLogoContent max-w-[120px] mx-auto">
+        <img src={footerLogo} alt="57Dentcare" className="footerLogo w-full text-center" />
       </div>
+      */}
       <div className="footerColumns mt-5 flex justify-between items-start gap-5 max-xl:flex-wrap max-xl:justify-center">
         {/* Company Column */}
         <div className="footerColumn">
