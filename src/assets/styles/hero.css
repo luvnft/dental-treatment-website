@@ -25,3 +25,12 @@
 .qualityBoxDesc {
   font-size: 14px;
 }
+@media (max-width: 580px) {
+  .qualityBox {
+    max-width: 100%;
+    min-height: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}

@@ -7,7 +7,7 @@ const Header = () => {
       <div className="headerLogoContent">
         <img src={logo} alt="57Dentcare" className="headerLogoImg" />
       </div>
-      <div className="headerMenuContent">
+      <div className="headerMenuContent max-lg:hidden">
         <ul className="headerMenuList flex justify-center items-center gap-5">
           <li className="headerMenuListItem font-medium">
             <a href="/" className="headerMenuListItemLink">
@@ -40,11 +40,7 @@ const Header = () => {
         <button className="headerContactButton w-[180px] h-[50px] text-[18px] font-medium text-center flex justify-center items-center gap-2 border-solid border-[#89DB7B] border-[1px] rounded-[50px]">
           Contact Us
           <div className="headerContactButtonImgContent flex justify-between items-center max-w-[15px]">
-            <img
-              src={contactArrow}
-              alt="Contact Us"
-              className="headerContactButtonImg w-full"
-            />
+            <img src={contactArrow} alt="Contact Us" className="headerContactButtonImg w-full" />
           </div>
         </button>
       </div>

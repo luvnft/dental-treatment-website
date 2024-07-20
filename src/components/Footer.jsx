@@ -15,12 +15,10 @@ const Footer = () => {
       <div className="footerLogoContent max-w-[120px]">
         <img src={footerLogo} alt="57Dentcare" className="footerLogo w-full" />
       </div>
-      <div className="footerColumns mt-5 flex justify-between items-start gap-5">
+      <div className="footerColumns mt-5 flex justify-between items-start gap-5 max-xl:flex-wrap max-xl:justify-center">
         {/* Company Column */}
         <div className="footerColumn">
-          <h3 className="footerColumnTitle font-semibold text-[20px] mb-3">
-            Company
-          </h3>
+          <h3 className="footerColumnTitle font-semibold text-[20px] mb-3">Company</h3>
           <ul className="footerColumnList">
             <li className="footerColumnListItem">
               <a href="/" className="footerColumnListItemLink active">
@@ -58,9 +56,7 @@ const Footer = () => {
         {/* Pages Column */}
 
         <div className="footerColumn">
-          <h3 className="footerColumnTitle font-semibold text-[20px] mb-3">
-            Pages
-          </h3>
+          <h3 className="footerColumnTitle font-semibold text-[20px] mb-3">Pages</h3>
           <ul className="footerColumnList">
             <li className="footerColumnListItem">
               <a href="/" className="footerColumnListItemLink active">
@@ -97,19 +93,13 @@ const Footer = () => {
 
         {/* Address Column */}
         <div className="footerColumn">
-          <h3 className="footerColumnTitle font-semibold text-[20px] mb-3">
-            Address
-          </h3>
-          <p className="footerDesc">
-            123 Dental Avenue City ville, State 12345 United States
-          </p>
+          <h3 className="footerColumnTitle font-semibold text-[20px] mb-3">Address</h3>
+          <p className="footerDesc">123 Dental Avenue City ville, State 12345 United States</p>
           <a href="/" className="footerLink">
             View on Maps
           </a>
 
-          <h3 className="footerColumnTitle font-semibold text-[20px] mb-3 mt-5">
-            Inquiries
-          </h3>
+          <h3 className="footerColumnTitle font-semibold text-[20px] mb-3 mt-5">Inquiries</h3>
           <p className="footerDesc">
             (123) 456-7890 <br /> info@57dentcare.com
           </p>
@@ -118,92 +108,50 @@ const Footer = () => {
         {/* Social Media Column */}
 
         <div className="footerColumn">
-          <h3 className="footerColumnTitle font-semibold text-[20px] mb-3">
-            Newsletter
-          </h3>
+          <h3 className="footerColumnTitle font-semibold text-[20px] mb-3">Newsletter</h3>
           <p className="footerDesc mb-2">Stay Updated with our Latest News</p>
           <div className="footerInputContent relative w-full max-w-[306px] border-[1px] border-black rounded-[30px]">
-            <input
-              className="footerInput p-5 w-full max-w-[200px] h-[59px] rounded-[30px]"
-              type="text"
-              name="email"
-              id="email"
-              placeholder="Your Email"
-            />
+            <input className="footerInput p-5 w-full max-w-[200px] h-[59px] rounded-[30px]" type="text" name="email" id="email" placeholder="Your Email" />
             <div className="footerInputImgContent absolute top-2 right-2 cursor-pointer">
-              <img
-                src={footerInputArrow}
-                alt="Arrow"
-                className="footerInputImg"
-              />
+              <img src={footerInputArrow} alt="Arrow" className="footerInputImg" />
             </div>
           </div>
 
-          <h3 className="footerColumnTitle font-semibold text-[20px] mb-3 mt-3">
-            Follow Us
-          </h3>
+          <h3 className="footerColumnTitle font-semibold text-[20px] mb-3 mt-3">Follow Us</h3>
           <div className="footerSocialMediaList list-none flex justify-start items-center gap-3">
             <li className="footerSocialMediaListItem">
               <div className="footerSocialMediaListItemImgContent">
-                <img
-                  src={facebookLogo}
-                  alt="Facebook"
-                  className="footerSocialMediaListItemImg"
-                />
+                <img src={facebookLogo} alt="Facebook" className="footerSocialMediaListItemImg" />
               </div>
             </li>
             <li className="footerSocialMediaListItem">
               <div className="footerSocialMediaListItemImgContent">
-                <img
-                  src={twitterLogo}
-                  alt="twitter"
-                  className="footerSocialMediaListItemImg"
-                />
+                <img src={twitterLogo} alt="twitter" className="footerSocialMediaListItemImg" />
               </div>
             </li>
             <li className="footerSocialMediaListItem">
               <div className="footerSocialMediaListItemImgContent">
-                <img
-                  src={youtubeLogo}
-                  alt="youtube"
-                  className="footerSocialMediaListItemImg"
-                />
+                <img src={youtubeLogo} alt="youtube" className="footerSocialMediaListItemImg" />
               </div>
             </li>
             <li className="footerSocialMediaListItem">
               <div className="footerSocialMediaListItemImgContent">
-                <img
-                  src={pinterestLogo}
-                  alt="pinterest"
-                  className="footerSocialMediaListItemImg"
-                />
+                <img src={pinterestLogo} alt="pinterest" className="footerSocialMediaListItemImg" />
               </div>
             </li>
             <li className="footerSocialMediaListItem">
               <div className="footerSocialMediaListItemImgContent">
-                <img
-                  src={linkedinLogo}
-                  alt="linkedin"
-                  className="footerSocialMediaListItemImg"
-                />
+                <img src={linkedinLogo} alt="linkedin" className="footerSocialMediaListItemImg" />
               </div>
             </li>
             <li className="footerSocialMediaListItem">
               <div className="footerSocialMediaListItemImgContent">
-                <img
-                  src={tiktokLogo}
-                  alt="tiktok"
-                  className="footerSocialMediaListItemImg"
-                />
+                <img src={tiktokLogo} alt="tiktok" className="footerSocialMediaListItemImg" />
               </div>
             </li>
             <li className="footerSocialMediaListItem">
               <div className="footerSocialMediaListItemImgContent">
-                <img
-                  src={instagramLogo}
-                  alt="instagram"
-                  className="footerSocialMediaListItemImg"
-                />
+                <img src={instagramLogo} alt="instagram" className="footerSocialMediaListItemImg" />
               </div>
             </li>
           </div>

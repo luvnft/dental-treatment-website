@@ -5,7 +5,7 @@ import "../assets/styles/whyChooseUs.css";
 
 const WhyChooseUs = () => {
   return (
-    <section className="whyChooseUsContent px-3 flex items-start justify-between max-w-[1180px] mx-auto">
+    <section className="whyChooseUsContent px-3 flex items-start justify-between max-w-[1180px] mx-auto max-lg:flex-col max-lg:justify-center max-lg:items-center max-lg:gap-10">
       <div className="whyChooseUsInfoSide w-full">
         <h3 className="sectionSubTitle font-semibold text-[20px] text-left text-secondary">Why Choose Us</h3>
         <h2 className="sectionMainTitle text-left mb-6 font-semibold text-[36px]">Comprehensive Dental Services</h2>
@@ -20,7 +20,7 @@ const WhyChooseUs = () => {
           </li>
 
           <li className="whyChooseUsListItem flex items-start justify-start gap-2">
-            <div className="whyChooseUsListItemIconContent min-w-[20px] mt-0.5">
+            <div className="whyChooseUsListItemIconContent min-w-[20px]">
               <img src={listItemIcon} alt="why Choose Us" className="whyChooseUsListItemIcon w-full" />
             </div>
             <p className="whyChooseUsListItemDesc">
@@ -29,7 +29,7 @@ const WhyChooseUs = () => {
           </li>
 
           <li className="whyChooseUsListItem flex items-start justify-start gap-2">
-            <div className="whyChooseUsListItemIconContent min-w-[20px] mt-0.5">
+            <div className="whyChooseUsListItemIconContent min-w-[20px]">
               <img src={listItemIcon} alt="why Choose Us" className="whyChooseUsListItemIcon w-full" />
             </div>
             <p className="whyChooseUsListItemDesc">
@@ -38,7 +38,7 @@ const WhyChooseUs = () => {
           </li>
 
           <li className="whyChooseUsListItem flex items-start justify-start gap-2">
-            <div className="whyChooseUsListItemIconContent min-w-[20px] mt-0.5">
+            <div className="whyChooseUsListItemIconContent min-w-[20px]">
               <img src={listItemIcon} alt="why Choose Us" className="whyChooseUsListItemIcon w-full" />
             </div>
             <p className="whyChooseUsListItemDesc">
@@ -47,7 +47,7 @@ const WhyChooseUs = () => {
           </li>
 
           <li className="whyChooseUsListItem flex items-start justify-start gap-2">
-            <div className="whyChooseUsListItemIconContent min-w-[20px] mt-0.5">
+            <div className="whyChooseUsListItemIconContent min-w-[20px]">
               <img src={listItemIcon} alt="why Choose Us" className="whyChooseUsListItemIcon w-full" />
             </div>
             <p className="whyChooseUsListItemDesc">
@@ -57,8 +57,8 @@ const WhyChooseUs = () => {
         </ul>
       </div>
       <div className="whyChooseUsImgSide w-full">
-        <div className="whyChooseUsImgContent">
-          <img src={comprehensiveDentalServices} alt="Comprehensive Dental Services" className="whyChooseUsImg" />
+        <div className="whyChooseUsImgContent max-lg:max-w-[380px] max-lg:mx-auto">
+          <img src={comprehensiveDentalServices} alt="Comprehensive Dental Services" className="whyChooseUsImg max-lg:text-center" />
         </div>
       </div>
     </section>
