@@ -26,7 +26,7 @@ const Hero = () => {
             <br />Quality Leads Only
           </h1>
           <p className="heroSubtitle text-[16px] font-medium text-left mt-2">
-            Discover how our dental marketing agency effortlessly delivers a<br /> 
+            Discover how our dental marketing agency effortlessly delivers a
             consistent flow of profitable new patients to dentists each month!
           </p>
           <div className="bookingButtonContent max-[850px]:flex max-[850px]:justify-center max-[850px]:items-center">
