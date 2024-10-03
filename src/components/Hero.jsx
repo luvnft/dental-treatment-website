@@ -22,58 +22,62 @@ const Hero = () => {
           max-md:pt-0
           "
           >
-            Dental Excellence Starts Here: Your Guide to a Brighter, Healthier
-            <br /> Smile
+            Dental Marketing Experts
+            <br />Quality Leads Only
           </h1>
+          <p className="heroSubtitle text-[16px] font-medium text-left mt-2">
+            Discover how our dental marketing agency effortlessly delivers a<br /> 
+            consistent flow of profitable new patients to dentists each month!
+          </p>
           <div className="bookingButtonContent max-[850px]:flex max-[850px]:justify-center max-[850px]:items-center">
             <button className="bookingButton bg-secondary flex items-center gap-2 px-5 py-2 rounded-[30px] font-semibold h-[50px] mt-5 relative">
-              Booking Now
+              SCHEDULE A FREE CALL
               <div className="bookingButtonImgContent max-w-[13px] flex items-center justify-center">
-                <img src={contactArrow} alt="Arrow" className="bookingButtonImg w-full" />
+                <img src={contactArrow} alt="Arrow" className="w-full bookingButtonImg" />
               </div>
               <div className="bookingButtonEffectImgContent  absolute max-w-[80px] right-[-15px] z-[-1]">
-                <img src={heroButtonEffect} alt="Arrow" className="bookingButtonEffectImg w-full" />
+                <img src={heroButtonEffect} alt="Arrow" className="w-full bookingButtonEffectImg" />
               </div>
             </button>
           </div>
         </div>
         <div className="heroImgContent w-full max-w-[630px] absolute bottom-30 right-0 max-lg:max-w-[500px] max-[850px]:relative">
-          <img src={heroImg} alt="Smiling Woman" className="heroImg w-full" />
+          <img src={heroImg} alt="Smiling Woman" className="w-full heroImg" />
         </div>
       </section>
       <section className="qualityContent max-w-[1200px] mx-auto px-3 max-lg:pt-[100px] max-[850px]:pt-[0px] max-[850px]:mt-[-50px]">
-        <div className="qualityBoxes z-10 relative flex flex-wrap items-start justify-center gap-5">
+        <div className="relative z-10 flex flex-wrap items-start justify-center gap-5 qualityBoxes">
           {/* Free Consultation */}
           <div className="qualityBox">
             <div className="qualityBoxImgContent">
               <img src={freeConsultation} alt="Free Consultation" className="qualityBoxImg" />
             </div>
-            <h3 className="qualityBoxTitle">Free Consultation</h3>
-            <p className="qualityBoxDesc">We offer flexible appointment scheduling and free to accommodate your busy life</p>
+            <h3 className="qualityBoxTitle">Video</h3>
+            <p className="qualityBoxDesc">Dental videos can increase conversion rates by up to 86%, making them a powerful tool for driving appointment bookings.</p>
           </div>
           {/* Expert Dentist */}
           <div className="qualityBox">
             <div className="qualityBoxImgContent">
               <img src={expertDentist} alt="Expert Dentist" className="qualityBoxImg" />
             </div>
-            <h3 className="qualityBoxTitle">Expert Dentist</h3>
-            <p className="qualityBoxDesc">Our team of experienced dentists and dental professionals boasts years of expertise in various areas of dentistry</p>
+            <h3 className="qualityBoxTitle">PPC</h3>
+            <p className="qualityBoxDesc">Our PPC (pay per click) sales funnels that convert your visitors into leads and then patients.</p>
           </div>
           {/* High User Rating */}
           <div className="qualityBox">
             <div className="qualityBoxImgContent">
               <img src={highUserRating} alt="High User Rating" className="qualityBoxImg" />
             </div>
-            <h3 className="qualityBoxTitle">High User Rating</h3>
-            <p className="qualityBoxDesc">We offer flexible appointment scheduling and free to accommodate your busy life</p>
+            <h3 className="qualityBoxTitle">ReelViews</h3>
+            <p className="qualityBoxDesc">We create a branded TikTok AR ReelView effect that allows your practice to easily ask patients for a video review.</p>
           </div>
           {/* Best Equipment */}
           <div className="qualityBox">
             <div className="qualityBoxImgContent">
               <img src={bestEquipment} alt="Best Equipment" className="qualityBoxImg" />
             </div>
-            <h3 className="qualityBoxTitle">Best Equipment</h3>
-            <p className="qualityBoxDesc">Our compassionate team is dedicated to making your dental experience as comfortable and stress-free as possible</p>
+            <h3 className="qualityBoxTitle">Backdrop</h3>
+            <p className="qualityBoxDesc">We create branded TikTok AR backdrop effects that allows any patient or staff to pose in front of your logo to create daily social media content.</p>
           </div>
         </div>
       </section>
