@@ -20,9 +20,6 @@ const Services = () => {
           </div>
           <h3 className="serviceBoxTitle">General Dentistry</h3>
           <p className="serviceBoxDesc">Focusing on comprehensive care and routine check-ups to attract new patients.</p>
-          <a href="#" className="serviceButton">
-            Read More
-          </a>
         </div>
 
         {/* Dental Implant */}
@@ -32,9 +29,6 @@ const Services = () => {
           </div>
           <h3 className="serviceBoxTitle">Cosmetic Dentistry</h3>
           <p className="serviceBoxDesc">Surgical placement of artificial tooth roots</p>
-          <a href="#" className="serviceButton">
-            Read More
-          </a>
         </div>
 
         {/* Teeth Fillings */}
@@ -44,9 +38,6 @@ const Services = () => {
           </div>
           <h3 className="serviceBoxTitle">Orthodontics</h3>
           <p className="serviceBoxDesc">Generating leads for practices specializing in braces and teeth alignment services.</p>
-          <a href="#" className="serviceButton">
-            Read More
-          </a>
         </div>
 
         {/* Oral Surgery */}
@@ -56,9 +47,7 @@ const Services = () => {
           </div>
           <h3 className="serviceBoxTitle">Oral Surgery</h3>
           <p className="serviceBoxDesc">Attracting patients in need of surgical procedures and consultations.</p>
-          <a href="#" className="serviceButton">
-            Read More
-          </a>
+          
         </div>
 
         {/* Crown And Bridges */}
@@ -68,9 +57,6 @@ const Services = () => {
           </div>
           <h3 className="serviceBoxTitle">Pediatric Dentistry</h3>
           <p className="serviceBoxDesc">Reaching out to families looking for specialized dental care for children.</p>
-          <a href="#" className="serviceButton">
-            Read More
-          </a>
         </div>
 
         {/* Periodontal Care */}
@@ -80,9 +66,7 @@ const Services = () => {
           </div>
           <h3 className="serviceBoxTitle">Periodontics</h3>
           <p className="serviceBoxDesc">Targeting individuals needing gum disease treatment and related dental services.</p>
-          <a href="#" className="serviceButton">
-            Read More
-          </a>
+    
         </div>
       </div>
     </section>
