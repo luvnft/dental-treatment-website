@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="headerContent flex justify-between items-center max-w-[1200px] mx-auto py-5 px-3 mb-5">
       <div className="headerLogoContent">
-        <img src={logo} alt="57Dentcare" className="headerLogoImg" />
+        <img src={logo} alt="Arvrtise Dental" className="headerLogoImg" />
       </div>
       <div className="headerMenuContent max-lg:hidden">
         <ul className="flex items-center justify-center gap-5 headerMenuList">
