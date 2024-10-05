@@ -26,7 +26,7 @@ const Hero = () => {
             <br />Quality Leads Only
           </h1>
           <p className="heroSubtitle text-[16px] font-medium text-left mt-2">
-            We deliver a consistent flow of profitable new patients to dentists each month!
+            We deliver a consistent flow of profitable new patients monthly!
           </p>
           <div className="bookingButtonContent max-[850px]:flex max-[850px]:justify-center max-[850px]:items-center">
             <button className="bookingButton bg-secondary flex items-center gap-2 px-5 py-2 rounded-[30px] font-semibold h-[50px] mt-5 relative">
