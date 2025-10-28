@@ -21,7 +21,7 @@ const Hero = () => {
             max-lg:text-[40px] max-lg:max-w-[500px] max-[850px]:text-center 
             max-[850px]:max-w-full max-[850px]:text-[30px] max-md:pt-0"
           >
-            😁 SmileSats Dental Rewards
+            😁 Bitcoin Dental Rewards
             <br />
             🙃 Fun vibes only
           </h1>
