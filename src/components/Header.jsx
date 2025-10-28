@@ -5,12 +5,12 @@ const Header = () => {
   return (
     <header className="headerContent flex justify-between items-center max-w-[1200px] mx-auto py-5 px-3 mb-5">
       <div className="headerLogoContent">
-        <img src={logo} alt="Arvrtise Dental" className="headerLogoImg" />
+        <img src={logo} alt="SMILE SATS" className="headerLogoImg" />
       </div>
       <div className="headerMenuContent max-lg:hidden">
         <ul className="flex items-center justify-center gap-5 headerMenuList">
           <li className="font-medium headerMenuListItem">
-            <a href="https://dental.arvrtise.com" className="headerMenuListItemLink">
+            <a href="https://smilesats.com" className="headerMenuListItemLink">
               Home
             </a>
           </li>
@@ -37,7 +37,7 @@ const Header = () => {
         </ul>
       </div>
       <div className="headerContactContent">
-      <a href="https://calendly.com/arvrtise" className="headerContactLink">
+      <a href="https://t.me/hahznft" className="headerContactLink">
       <button className="headerContactButton w-[180px] h-[50px] text-[18px] font-medium text-center flex justify-center items-center gap-2 border-solid border-[#89DB7B] border-[1px] rounded-[50px]">
             Contact Us
             <div className="headerContactButtonImgContent flex justify-between items-center max-w-[15px]">

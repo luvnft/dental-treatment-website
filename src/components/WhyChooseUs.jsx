@@ -8,14 +8,14 @@ const WhyChooseUs = () => {
     <section className="whyChooseUsContent px-3 flex items-start justify-between max-w-[1180px] mx-auto max-lg:flex-col max-lg:justify-center max-lg:items-center max-lg:gap-10">
       <div className="w-full whyChooseUsInfoSide">
         <h3 className="sectionSubTitle font-semibold text-[20px] text-left text-secondary">Why Choose Us</h3>
-        <h2 className="sectionMainTitle text-left mb-6 font-semibold text-[36px]">Your Partner in a Healthy Smile</h2>
+        <h2 className="sectionMainTitle text-left mb-6 font-semibold text-[36px]">Your Partner in Dental Rewards</h2>
         <ul className="whyChooseUsList">
           <li className="flex items-start justify-start gap-2 whyChooseUsListItem">
             <div className="whyChooseUsListItemIconContent">
               <img src={listItemIcon} alt="why Choose Us" className="w-full whyChooseUsListItemIcon" />
             </div>
             <p className="whyChooseUsListItemDesc">
-              <strong>Experienced Professionals:</strong> Our team consists of dental marketing gurus who speak your language. 
+              <strong>🪙 Real Rewards, Real Impact</strong> Every smile becomes proof of care. Patients earn Bitcoin-backed $MILE rewards.
             </p>
           </li>
 
@@ -24,7 +24,7 @@ const WhyChooseUs = () => {
               <img src={listItemIcon} alt="why Choose Us" className="w-full whyChooseUsListItemIcon" />
             </div>
             <p className="whyChooseUsListItemDesc">
-              <strong>State-of-the-Art Technology:</strong> We leverage social media AR effects and paid marketing to SEO and website optimization.
+              <strong>⚙️ Tokenized Transparency</strong> We use blockchain technology to tokenize treatment records and after-photos.
             </p>
           </li>
 
@@ -33,7 +33,7 @@ const WhyChooseUs = () => {
               <img src={listItemIcon} alt="why Choose Us" className="w-full whyChooseUsListItemIcon" />
             </div>
             <p className="whyChooseUsListItemDesc">
-              <strong>Compassionate Care:</strong> We treat your practice like our own. 
+              <strong>😁 Fun-first social content</strong> We turn everyday smiles into short, share-ready reels for all your socials.
             </p>
           </li>
 
@@ -42,7 +42,7 @@ const WhyChooseUs = () => {
               <img src={listItemIcon} alt="why Choose Us" className="w-full whyChooseUsListItemIcon" />
             </div>
             <p className="whyChooseUsListItemDesc">
-              <strong>Client Education:</strong> We empower you with the knowledge to make informed decisions about your marketing strategy
+              <strong>📈 Empowering Your Practice</strong> Our platform turns daily patient interactions into measurable ROI.
             </p>
           </li>
 
@@ -51,7 +51,7 @@ const WhyChooseUs = () => {
               <img src={listItemIcon} alt="why Choose Us" className="w-full whyChooseUsListItemIcon" />
             </div>
             <p className="whyChooseUsListItemDesc">
-              <strong>Monthly Analytics:</strong> We schedule a monthly meeting to discuss the impact of our high quality leads.
+              <strong>🔍 Measurable Insights</strong> Monthly analytics dashboards show exactly how rewards, UGC, and PPC performed.
             </p>
           </li>
         </ul>

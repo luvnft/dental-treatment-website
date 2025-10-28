@@ -1,36 +1,61 @@
+import { useEffect } from "react";
 import consultationPerson from "../assets/images/consultationImages/consultationPerson.png";
-import contactArrow from "../assets/images/headerImages/headerContactArrow.png";
 import "../assets/styles/consultation.css";
+
 const Consultation = () => {
+  useEffect(() => {
+    // Dynamically load TikTok embed script if not already loaded
+    const existingScript = document.querySelector('script[src="https://www.tiktok.com/embed.js"]');
+    if (!existingScript) {
+      const script = document.createElement("script");
+      script.src = "https://www.tiktok.com/embed.js";
+      script.async = true;
+      document.body.appendChild(script);
+    } else {
+      // If script already exists, trigger TikTok’s re-render manually
+      if (window.tiktokEmbedLoad) window.tiktokEmbedLoad();
+    }
+  }, []);
+
   return (
     <section className="consultationContent grid grid-cols-[0.4fr_0.6fr] place-items-center max-w-[1140px] mx-auto my-10 gap-5 rounded-[50px] max-lg:flex max-lg:flex-col max-lg:w-fit max-lg:p-5">
+      {/* Left image */}
       <div className="consultationImgSide max-lg:p-5 max-md:p-0">
-        <img src={consultationPerson} alt="Dentist" className="consultationImg w-full max-w-[484px] max-h-[502px] max-lg:rounded-[50px]" />
+        <img
+          src={consultationPerson}
+          alt="Dentist"
+          className="consultationImg w-full max-w-[484px] max-h-[502px] max-lg:rounded-[50px]"
+        />
       </div>
-      <div className="consultationFormSide max-lg:p-5 max-md:p-0">
-        <h2 className="sectionMainTitle text-center mb-6 font-semibold text-[36px]">Free Consultation</h2>
-        <form action="POST" className="consultationForm">
-          <div
-            className="consultationFormInputs grid grid-cols-2 gap-5
-          max-md:grid-cols-1
-          "
-          >
-            <input type="text" placeholder="Full Name*" className="consultationInput max-md:w-full" />
-            <input type="text" placeholder="I'm interested in*" className="consultationInput max-md:w-full" />
-            <input type="email" placeholder="Email*" className="consultationInput max-md:w-full" />
-            <input type="tel" placeholder="Phone Number*" className="consultationInput max-md:w-full" />
-          </div>
 
-          <div
-            className="consultationFormButtonContent w-full shadow-buttonShadow bg-secondary flex justify-center items-center gap-2 px-5 py-2
-           rounded-[30px] font-semibold h-[50px] mt-8"
+      {/* Right: TikTok embed */}
+      <div className="text-center consultationFormSide max-lg:p-5 max-md:p-0">
+        <h2 className="sectionMainTitle mb-4 font-semibold text-[36px]">
+          Follow SmileSats on TikTok
+        </h2>
+        <p className="text-[16px] mb-6">
+          🎵 See how we’re turning smiles into Bitcoin $MILE rewards.
+        </p>
+
+        <div className="flex items-center justify-center">
+          <blockquote
+            className="tiktok-embed"
+            cite="https://www.tiktok.com/@smilesats"
+            data-unique-id="smilesats"
+            data-embed-type="creator"
+            style={{ maxWidth: "780px", minWidth: "288px" }}
           >
-            <input className="consultationFormButton text-[20px]" type="submit" value="Get a Free Consultation" />
-            <div className="bookingButtonImgContent max-w-[15px] flex items-center justify-center">
-              <img src={contactArrow} alt="Arrow" className="bookingButtonImg w-full" />
-            </div>
-          </div>
-        </form>
+            <section>
+              <a
+                target="_blank"
+                href="https://www.tiktok.com/@smilesats?refer=creator_embed"
+                rel="noopener noreferrer"
+              >
+                @smilesats
+              </a>
+            </section>
+          </blockquote>
+        </div>
       </div>
     </section>
   );
