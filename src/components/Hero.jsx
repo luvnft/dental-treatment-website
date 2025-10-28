@@ -23,22 +23,22 @@ const Hero = () => {
           >
             😁 SmileSats Dental Rewards
             <br />
-            Turn every smile into Bitcoin $MILE.
+            Fun vibes only
           </h1>
 
           <p className="heroSubtitle text-[16px] font-medium text-left mt-2 max-[850px]:text-center">
-            Earn for social tasks 💬 Redeem to cut dental bills 💎 Reward your staff ⚡
+            Earn Bitcoin $MILE for every booking, referral, and TikTok review.
           </p>
 
           {/* Button — fixed width */}
           <div className="bookingButtonContent flex justify-start max-[850px]:justify-center">
             <a
-              href="https://t.me/hahznft"
+              href="https://app.smilesats.com"
               target="_blank"
               rel="noopener noreferrer"
               className="bookingButton bg-gradient-to-r from-[#00C853] to-[#B2FF59] text-black flex items-center gap-2 px-6 py-3 rounded-[30px] font-semibold text-[16px] mt-5 relative shadow-md hover:scale-105 transition-transform duration-300 w-auto"
             >
-              💼 Book a Demo
+              🙂 JOIN APP
               <div className="bookingButtonImgContent w-[15px] flex items-center justify-center">
                 <img
                   src={contactArrow}

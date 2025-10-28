@@ -10,8 +10,8 @@ import "../assets/styles/services.css";
 const Services = () => {
   return (
     <section className="serviceContent max-w-[1200px] mx-auto my-10">
-      <h3 className="sectionSubTitle font-semibold text-[20px] text-center text-secondary">Leads Solution</h3>
-      <h2 className="sectionMainTitle text-center mb-6 font-semibold text-[36px]">Dental Practices We Serve</h2>
+      <h3 className="sectionSubTitle font-semibold text-[20px] text-center text-secondary">🪙 SmileSats Solutions</h3>
+      <h2 className="sectionMainTitle text-center mb-6 font-semibold text-[36px]">Dental Practices We Boost 💥</h2>
       <div className="flex flex-wrap items-center justify-center gap-5 serviceBoxes">
         {/* Teeth Whitening */}
         <div className="serviceBox bg-lightYellow">
@@ -19,7 +19,7 @@ const Services = () => {
             <img src={teethWhitening} alt="Teeth Whitening" className="serviceBoxImg" />
           </div>
           <h3 className="serviceBoxTitle">General Dentistry</h3>
-          <p className="serviceBoxDesc">Focusing on comprehensive care and routine check-ups to attract new patients.</p>
+          <p className="serviceBoxDesc">Keeping every smile bright! Routine check-ups that now earn you Bitcoin for every new patient booked. 😁</p>
         </div>
 
         {/* Dental Implant */}
@@ -28,7 +28,7 @@ const Services = () => {
             <img src={dentalImplant} alt="Dental Implant" className="serviceBoxImg" />
           </div>
           <h3 className="serviceBoxTitle">Cosmetic Dentistry</h3>
-          <p className="serviceBoxDesc">Surgical placement of artificial tooth roots</p>
+          <p className="serviceBoxDesc">From veneers to viral smiles — help patients glow up and get rewarded for every reel-ready smile.</p>
         </div>
 
         {/* Teeth Fillings */}
@@ -37,7 +37,7 @@ const Services = () => {
             <img src={teethFillings} alt="Teeth Fillings" className="serviceBoxImg" />
           </div>
           <h3 className="serviceBoxTitle">Orthodontics</h3>
-          <p className="serviceBoxDesc">Generating leads for practices specializing in braces and teeth alignment services.</p>
+          <p className="serviceBoxDesc">Braces, aligners, and perfect grins! Turn every alignment success into social proof (and Bitcoin $MILE).</p>
         </div>
 
         {/* Oral Surgery */}
@@ -46,7 +46,7 @@ const Services = () => {
             <img src={oralSurgery} alt="Oral Surgery" className="serviceBoxImg" />
           </div>
           <h3 className="serviceBoxTitle">Oral Surgery</h3>
-          <p className="serviceBoxDesc">Attracting patients in need of surgical procedures and consultations.</p>
+          <p className="serviceBoxDesc">Precision meets purpose. Attract patients for big-day procedures and earn sats for verified bookings.</p>
           
         </div>
 
@@ -56,7 +56,7 @@ const Services = () => {
             <img src={crownAndBridges} alt="Crown And Bridges" className="serviceBoxImg" />
           </div>
           <h3 className="serviceBoxTitle">Pediatric Dentistry</h3>
-          <p className="serviceBoxDesc">Reaching out to families looking for specialized dental care for children.</p>
+          <p className="serviceBoxDesc">Caring for tiny teeth and big smiles. Parents earn Bitcoin $MILE for every happy check-up shared.</p>
         </div>
 
         {/* Periodontal Care */}
@@ -65,7 +65,7 @@ const Services = () => {
             <img src={periodontalCare} alt="Periodontal Care" className="serviceBoxImg" />
           </div>
           <h3 className="serviceBoxTitle">Periodontics</h3>
-          <p className="serviceBoxDesc">Targeting individuals needing gum disease treatment and related dental services.</p>
+          <p className="serviceBoxDesc">Healthier gums, happier grins. Reward patients who share their progress and spread real dental wellness.</p>
     
         </div>
       </div>

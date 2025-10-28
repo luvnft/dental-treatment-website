@@ -15,31 +15,21 @@ const Header = () => {
             </a>
           </li>
           <li className="font-medium headerMenuListItem">
-            <a href="#services" className="headerMenuListItemLink">
-              Services
+            <a href="https://app.smilesats.com" className="headerMenuListItemLink">
+              App
             </a>
           </li>
           <li className="font-medium headerMenuListItem">
-            <a href="#aboutUs" className="headerMenuListItemLink">
-              About Us
-            </a>
-          </li>
-          <li className="font-medium headerMenuListItem">
-            <a href="#whyChooseUs" className="headerMenuListItemLink">
-              Why Choose Us
-            </a>
-          </li>
-          <li className="font-medium headerMenuListItem">
-            <a href="#testimonials" className="headerMenuListItemLink">
-              Testimonials
+            <a href="https://tiktok.com/@tiktok" className="headerMenuListItemLink">
+              TikTok
             </a>
           </li>
         </ul>
       </div>
       <div className="headerContactContent">
-      <a href="https://t.me/hahznft" className="headerContactLink">
+      <a href="https://app.smilesats.com/profile/hahz/" className="headerContactLink">
       <button className="headerContactButton w-[180px] h-[50px] text-[18px] font-medium text-center flex justify-center items-center gap-2 border-solid border-[#89DB7B] border-[1px] rounded-[50px]">
-            Contact Us
+            Partner With SmileSats
             <div className="headerContactButtonImgContent flex justify-between items-center max-w-[15px]">
               <img src={contactArrow} alt="Contact Us" className="w-full headerContactButtonImg" />
             </div>

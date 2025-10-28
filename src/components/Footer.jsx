@@ -1,6 +1,5 @@
 import footerLogo from "../assets/images/headerImages/logo.png";
-import tiktokLogo from "../assets/images/footerImages/tiktok.png";
-import youtubeLogo from "../assets/images/footerImages/youtube.png";
+import tiktokLogo from "../assets/images/footerImages/tiktok.webp";
 import "../assets/styles/footer.css";
 
 const Footer = () => {
@@ -22,26 +21,23 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="w-[60px] h-[60px] rounded-full bg-black flex items-center justify-center hover:scale-110 transition-transform"
           >
-            <img src={tiktokLogo} alt="TikTok" className="w-[30px] h-[30px] invert brightness-200" />
-          </a>
-
-          <a
-            href="https://youtube.com/@smilesats"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-[60px] h-[60px] rounded-full bg-red-600 flex items-center justify-center hover:scale-110 transition-transform"
-          >
-            <img src={youtubeLogo} alt="YouTube" className="w-[30px] h-[30px] brightness-200" />
+            <img
+              src={tiktokLogo}
+              alt="TikTok"
+              className="w-[30px] h-[30px] invert brightness-200"
+            />
           </a>
         </div>
 
         {/* App Button */}
-        <button
-          className="flex items-center gap-3 px-8 py-3 rounded-[40px] bg-[#ff7a00] text-white font-semibold text-[18px] shadow-lg hover:opacity-90 transition-all mb-4"
-          disabled
+        <a
+          href="https://app.smilesats.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-3 px-8 py-3 rounded-[40px] bg-[#201F1B] text-white font-semibold text-[18px] shadow-lg hover:bg-[#3a362e] transition-all mb-4"
         >
-          📱 SmileSats App <span className="text-sm opacity-80">(Coming Soon)</span>
-        </button>
+          😁 JOIN APP <span className="text-sm opacity-80"></span>
+        </a>
 
         {/* Footer Details */}
         <p className="text-gray-500 text-[14px] mt-3">
@@ -53,5 +49,6 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
 
