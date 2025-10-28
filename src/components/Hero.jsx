@@ -23,7 +23,7 @@ const Hero = () => {
           >
             😁 SmileSats Dental Rewards
             <br />
-            Fun vibes only
+            🙃 Fun vibes only
           </h1>
 
           <p className="heroSubtitle text-[16px] font-medium text-left mt-2 max-[850px]:text-center">
